@@ -1,0 +1,13 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 2rem;
+  text-align: center;
+}
+h1 { color: #222; }
+section { background: #fff; padding: 1rem; margin: 1rem auto; max-width: 600px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+input { padding: 10px; width: 70%; margin: 5px; }
+button { padding: 10px 15px; margin: 5px; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li { margin: 5px 0; }

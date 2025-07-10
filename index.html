@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siddhant's AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🤖 Hello, I'm your-own-ai – Created by Siddhant Ray</h1>
+  <p id="greeting"></p>
+  <p id="clock"></p>
+
+  <section>
+    <h2>📝 To-Do List</h2>
+    <input id="todo-input" placeholder="Add a task..." />
+    <button onclick="addTask()">Add</button>
+    <ul id="todo-list"></ul>
+  </section>
+
+  <section>
+    <h2>💬 Ask Anything</h2>
+    <input id="question" placeholder="Ask me anything..." />
+    <button onclick="answerQuestion()">Ask</button>
+    <p id="response"></p>
+  </section>
+
+  <section>
+    <h2>🎯 Motivation</h2>
+    <button onclick="generateQuote()">Inspire Me</button>
+    <p id="quote"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
